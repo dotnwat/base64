@@ -1,0 +1,8 @@
+option('avx_flags', type: 'array', value: [])
+option('avx2_flags', type: 'array', value: [])
+option('neon32_flags', type: 'array', value: [])
+option('neon64_flags', type: 'array', value: [])
+option('ssse3_flags', type: 'array', value: [])
+option('sse41_flags', type: 'array', value: [])
+option('sse42_flags', type: 'array', value: [])
+option('enable_openmp', type: 'boolean', value: false)
